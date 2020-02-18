@@ -11,7 +11,7 @@ RUN /usr/local/bin/install-plugins.sh greenballs
 RUN /usr/local/bin/install-plugins.sh simple-theme-plugin
 
 # Scaling
-RUN /usr/local/bin/install-plugins.sh kubernetes
+#RUN /usr/local/bin/install-plugins.sh kubernetes
 
 # install Maven
 USER root
